@@ -1,0 +1,112 @@
+body{
+    margin:auto;
+    background-color: black;
+}
+#menu{
+    height: 10vh;
+    width:25vw;
+    line-height: 10vh;
+    text-align: center;
+    font-size:2em;
+    font-weight: bolder;
+    color:white;
+}
+#main{
+    display: flex;
+    border-radius:3vh;
+}
+.menu{
+    height:10vh;
+    width:8.5vw;
+    line-height: 10vh;
+    text-align: center;
+    font-size:1em;
+    font-weight: bold;
+    color:white;
+}
+#logo{
+    height: 10vh;
+    width:10vw;
+    margin-top: 2vh;
+    text-align: center;
+    line-height: 10vh;
+}
+#logo img{  
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#si{
+    margin-top: 4vh;
+    margin-left: 2vw;
+    height:3vh;
+    width: 10vw;
+    border:solid 1px;
+}
+#si1{
+    height:3vh;
+}
+#si1 img{
+    height: 100%;
+    overflow: hidden;
+}
+
+#lcu{
+    height:55vh;
+    width:99vw;
+}
+#lcu img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#about{
+    height:27vh;
+    width: 80vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height:4vh;
+    color: white;
+}
+#con{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: white;
+}
+#upd{
+    height:30vh;
+    display: flex;
+}
+.upd{
+    margin-top: 2vh;
+    height:30vh;
+    margin:1vw;
+    width:20vw;
+    transition: transform 1s;
+}
+#upd img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 2vh;
+}
+.upd:hover{
+    transform: scale(1.2);
+}
+.upd1{
+    width:15vw;
+    height:4vh;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2vh;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}

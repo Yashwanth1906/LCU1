@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <link rel="stylesheet" href="{% static 'signup.css' %}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>LOG IN</h2>
+<div id="info">
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" class="po" name="username" placeholder="Enter your username"> <br>
+        <input type="password" class="po" name="password" placeholder="Enter your password"> <br>
+        <button type="submit">LOG IN</button>
+    </form>
+</div>
+</body>
+</html>

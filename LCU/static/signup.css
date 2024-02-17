@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+#info{
+    height: 50vh;
+    width: 50vw;
+    margin: 25vw;
+    background-color:whitesmoke;
+    text-align: center;
+    border-radius: 2vh;
+}
+#info button{
+    margin-top: 2vh;
+}
+#info h2{
+    margin-top: 2vh;
+}
+.po{
+    height:3vh;
+    width: 35vw;
+    border-radius: 1vh;
+    margin-top:2vw;
+    text-align: center;
+}

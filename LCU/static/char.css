@@ -1,0 +1,157 @@
+body{
+    margin:auto;
+    background-color: black;
+}
+#menu{
+    height: 10vh;
+    width:25vw;
+    line-height: 10vh;
+    text-align: center;
+    font-size:2em;
+    font-weight: bolder;
+    color:white;
+}
+#main{
+    display: flex;
+    border-radius:3vh;
+}
+.menu{
+    height:10vh;
+    width:8.5vw;
+    line-height: 10vh;
+    text-align: center;
+    font-size:1em;
+    font-weight: bold;
+    color:white;
+}
+#logo{
+    height: 10vh;
+    width:10vw;
+    margin-top: 2vh;
+    text-align: center;
+    line-height: 10vh;
+}
+#logo img{  
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+#ab1{
+    height: 50vh;
+    width: 99vw;
+    background-image: url('Images/lcu\ posters.jpg');
+}
+#ab1 img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#ab2{
+    position: absolute;
+    height: 40vh;
+    width: 80vw;
+    line-height: 4vh;
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    color: white;
+}
+#ab2 h2{
+    font-size: 2em;
+}
+#ab3{
+    height: 50vh;
+    width: 99vw;
+    background-color: rgba(99, 99, 99, 0.6);
+}
+#ima{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 35vh;
+    width: 80vw;
+    margin: 3vw;
+    margin-left: 5vw;
+    display: flex;
+}
+.ima1{
+    height: 30vh;
+    width: 23vw;
+    margin: 1vh;
+    margin-left:3vh;
+    background-color:grey;
+}
+.ima1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2vh;
+    overflow: hidden;
+    transition: transform 1s;
+}
+.ima1 :hover{
+    transform: scale(1.2);
+}
+#tr1{
+    font-weight: bold;
+    color:white;
+    margin-left:2vw;
+    margin:2vw;
+}
+.mo1{
+    height:2vh;
+    text-align: center;
+    color: white;
+}
+#char{
+    height:35vh;
+    width: 80vw;
+    margin-bottom: 2vw;
+    display: flex;
+    margin-left: 8vw;
+    border-radius: 2vh;
+}
+.char{
+    height: 35vh;
+    width: 17vw;
+    margin-right:2vw;
+    overflow: hidden;
+}
+.char1{
+    height: 25vh;
+    width: 17vw;
+    margin-right: 2vw;
+    transition: transform .5s;
+    overflow: hidden;
+    background-color: gray
+}
+.line{
+    height: .5vh;
+    width: 20vw;
+    overflow: hidden;
+    background-color: black;
+}
+.about{
+    height:9.5vh;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 4vh;
+    color: black;
+    background-color: white;
+    transition: background-color .5s;
+}
+.char:hover .about{
+    background-color: black;
+    color: white;
+}
+.char:hover .char1{
+    transform: scale(1.1);
+}
+.char1 img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}

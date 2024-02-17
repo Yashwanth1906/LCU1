@@ -1,0 +1,184 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: black;
+}
+#main{
+    display: flex;
+}
+#menu{
+    height: 10vh;
+    width:25vw;
+    line-height: 10vh;
+    text-align: center;
+    font-size:2em;
+    font-weight: bolder;
+    color:white;
+}
+.menu{
+    height:10vh;
+    width:8.5vw;
+    line-height: 10vh;
+    text-align: center;
+    font-size:1em;
+    font-weight: bold;
+    color:white;
+}
+#im{
+    height: 50vh;
+    width: 99vw;
+    background-image: url('Images/lcu\ back.jpg');
+}
+#im img{
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2vh;
+}
+#ima{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 10vh;
+    width: 80w;
+    position: absolute;
+    margin:10vh;
+    color: white;
+    line-height: 3vh;
+    text-align: center;
+}
+#abo{
+    height: 50vh;
+    width: 100vw;
+}
+#str1{
+    height:45vh;
+    width:90vw;
+    margin: 4vw;
+    display: flex;
+}
+.str{
+    height: 45vh;
+    width:17vw;
+    margin-left: 1vw;
+
+}
+.str img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2vh;
+    overflow: hidden;
+}
+.str video{
+    height:100%;
+
+    border-radius: 2vh;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+#mo1{
+    width:90vw;
+    margin-left: 4vh;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 4vh;
+    color: white;
+}
+#mo2{
+    height:38vh;
+    width: 90vw;
+    display: flex;
+    margin-left: 4vh;
+    margin-top:1vh;
+    background-color: black;
+}
+.mo{
+    height:30vh;
+    width:10vw;
+    margin: 2vh;
+    background-color:grey;
+}
+.mo :hover{
+    transform: scale(1.2);
+}
+.mo img{
+    height: 100%;
+    width: 100%;
+    transition: transform 1s;
+    border-radius: 2vh;
+    overflow: hidden;
+}
+.mo1{
+    height:2vh;
+    text-align: center;
+}
+#tr{
+    height:50vh;
+    width:90vw;
+    display: flex;
+    margin: 3vw;
+    color: white;
+}
+.tr{
+    height: 45vh;
+    width: 43vw;
+    margin-left: 2vw;
+
+}
+.tr video{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2vh;
+}
+#tr1{
+    font-weight: bold;
+    color:white;
+    margin-left:2vw;
+    margin:2vw;
+}
+.mov{
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+#abo{
+    font-family:'Raleway',sans-serif;
+    color: white;
+    height: 40vh;
+    line-height: 40vh;
+    width: 100vw;
+    text-align: center;
+}
+#abo h1{
+    margin: 0;
+    font-size:250px;
+    color:rgba(255,255,255,.1);
+    background-image: url('Images/Leo-Poster.webp');
+    overflow: hidden;
+    background-repeat: repeat;
+    -webkit-background-clip:text;
+    animation: animate 15s ease-in-out infinite;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+@keyframes animate {
+    0%, 100% {
+      background-position: left top;
+    }
+    25%{
+      background-position: right bottom;
+     }
+    50% {
+      background-position: left bottom;
+    }
+    75% {
+      background-position: right top;
+    }   
+}
